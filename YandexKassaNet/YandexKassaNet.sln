@@ -10,7 +10,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9ECDE7
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexKassa", "YandexKassa\YandexKassa.csproj", "{DD281932-E793-4C74-AF28-213B26F5FC32}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD281932-E793-4C74-AF28-213B26F5FC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD281932-E793-4C74-AF28-213B26F5FC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD281932-E793-4C74-AF28-213B26F5FC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD281932-E793-4C74-AF28-213B26F5FC32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
